@@ -1,0 +1,36 @@
+.search-bar {
+  position: relative;
+  width: 300px;
+  height: 30px;
+  border: 1px solid #ededed;
+  border-radius: 15px;
+  padding: 0 35px 0 35px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.input-search {
+  background: none;
+  outline: none;
+  border: none;
+  color: #ededed;
+  width: 100%;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+  transform: translate(0, -50%);
+  color: #ededed;
+}
+
+.clear-button {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+  transform: translate(0, -50%);
+  color: #ededed;
+  cursor: pointer;
+}

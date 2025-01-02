@@ -6,22 +6,6 @@ body {
   padding: 20px 30px;
 }
 
-.search-bar {
-  width: 250px;
-  height: 22px;
-  border: 1px solid #fff;
-  border-radius: 15px;
-  padding: 4px 10px;
-  display: flex;
-  align-items: center;
-}
-
-.input-search {
-  background: none;
-  outline: none;
-  border: none;
-}
-
 .movie-bg {
   display: flex;
   flex-direction: column;
