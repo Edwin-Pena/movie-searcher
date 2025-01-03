@@ -1,30 +1,13 @@
+:root {
+  --z-default: 50;
+  --z-overlay: 100;
+}
+
 body {
   background: #232323;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
-  padding: 20px 30px;
-}
-
-.movie-bg {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  display: flex;
-  width: 550px;
-  gap: 15px;
-  margin-top: 30px;
-}
-
-.movie-bg-title {
-  font-size: 60px;
-  line-height: 60px;
-  color: #fff;
+  padding: 0;
   margin: 0;
-}
-
-.movie-bg-desc {
-  margin: 0;
-  color: #fff;
 }
