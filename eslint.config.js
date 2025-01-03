@@ -13,7 +13,7 @@ export default [
         ecmaVersion: 2021,
         sourceType: "module",
         ecmaFeatures: {
-          jsx: true, // Habilitar soporte JSX
+          jsx: true,
         },
       },
     },
@@ -22,16 +22,18 @@ export default [
   ...tseslint.configs.recommended,
   pluginReact.configs.flat.recommended,
   {
-    // Reglas específicas para React
     plugins: {
       react: pluginReact,
     },
+
+    //This is where I add the line to disable proptype checking in React
     rules: {
-      "react/react-in-jsx-scope": "off", // Desactiva la regla que requiere importar React
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
     },
     settings: {
       react: {
-        version: "detect", // Detecta automáticamente la versión de React
+        version: "detect",
       },
     },
   },
