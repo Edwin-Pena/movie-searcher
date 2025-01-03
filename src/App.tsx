@@ -1,4 +1,5 @@
 import BackgroundMovie from "./components/BackgroundMovie/BackgroundMovie";
+import Movies from "./components/Movies/Movies";
 import SearchBar from "./components/SearchBar/SearchBar";
 
 const App: React.FC = () => {
@@ -7,7 +8,7 @@ const App: React.FC = () => {
       <SearchBar />
       <BackgroundMovie />
 
-      {/* list of movies */}
+      <Movies />
     </div>
   );
 };
