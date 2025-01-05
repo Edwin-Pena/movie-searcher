@@ -1,5 +1,5 @@
 .backdrop {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   z-index: var(--z-default);
@@ -28,13 +28,13 @@
 
 .movie-bg {
   position: absolute;
-  top: 40%;
+  top: 27%;
   left: 50px;
   display: flex;
   flex-direction: column;
   height: auto;
   display: flex;
-  width: 500px;
+  width: 550px;
   gap: 15px;
   margin-top: 30px;
   z-index: var(--z-overlay);
@@ -43,9 +43,9 @@
 .movie-bg-title {
   font-size: 60px;
   line-height: 60px;
-  padding-right: 20px;
+  width: 400px;
   color: #fff;
-  margin: 0;
+  margin: 0 0 5px 0;
 }
 
 .movie-bg-desc {
