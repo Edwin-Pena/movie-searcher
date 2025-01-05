@@ -1,3 +1,4 @@
+import "bootstrap-icons/font/bootstrap-icons.css";
 import BackgroundMovie from "./components/BackgroundMovie/BackgroundMovie";
 import Movies from "./components/Movies/Movies";
 import SearchBar from "./components/SearchBar/SearchBar";
