@@ -3,7 +3,7 @@
   position: absolute;
   top: 440px;
   align-items: center;
-  overflow: hidden; /* Asegúrate de que no se vea la barra de scroll */
+  overflow: hidden;
   width: 100%;
   z-index: var(--z-overlay);
 }
@@ -14,18 +14,18 @@
   gap: 25px;
   margin: 0;
   padding: 0 50px 0 50px;
-  overflow-x: hidden; /* Mantén el overflow-x: hidden para ocultar las barras de scroll */
-  width: max-content; /* Esto asegura que el contenido se acomode al tamaño de los elementos */
+  overflow-x: hidden;
+  width: max-content;
 }
 
 .movie {
-  min-width: 150px; /* Asegura que cada ítem tenga un tamaño fijo */
+  min-width: 150px;
   flex-shrink: 0;
 }
 
 .movie img {
-  height: 250px; /* Ajusta el tamaño de la imagen */
-  width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible */
+  height: 250px;
+  width: 100%;
   border-radius: 7px;
 }
 
