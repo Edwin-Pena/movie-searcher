@@ -1,7 +1,8 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 import BackgroundMovie from "./components/BackgroundMovie/BackgroundMovie";
-import Movies from "./components/Movies/Movies";
+
 import SearchBar from "./components/SearchBar/SearchBar";
+import StaticMovies from "./components/StaticMovies/StaticMovies";
 
 const App: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const App: React.FC = () => {
       <SearchBar />
       <BackgroundMovie />
 
-      <Movies />
+      <StaticMovies />
     </div>
   );
 };

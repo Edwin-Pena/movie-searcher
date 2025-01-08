@@ -11,7 +11,7 @@ interface Props {
   movies: InfoMovie[];
 }
 
-const ListOfMovies: React.FC<Props> = ({ movies }) => {
+const ListStaticMovies: React.FC<Props> = ({ movies }) => {
   const carouselRef = useRef<HTMLUListElement>(null);
 
   const scrollLeft = () => {
@@ -56,4 +56,4 @@ const ListOfMovies: React.FC<Props> = ({ movies }) => {
   );
 };
 
-export default ListOfMovies;
+export default ListStaticMovies;
