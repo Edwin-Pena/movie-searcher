@@ -5,7 +5,7 @@ import "./StaticMovies.css";
 const StaticMovies: React.FC = () => {
   const movieInfo = MoviesJson.Search;
   return (
-    <div className="movies">
+    <div className="static-movies">
       <ListStaticMovies movies={movieInfo} />
     </div>
   );

@@ -42,9 +42,9 @@ const ListStaticMovies: React.FC<Props> = ({ movies }) => {
       <button className="carousel-btn left" onClick={scrollLeft}>
         <i className="bi bi-chevron-left"></i>
       </button>
-      <ul className="movies-list" ref={carouselRef}>
+      <ul className="static-movies-list" ref={carouselRef}>
         {movies.map((movie) => (
-          <li className="movie" key={movie.imdbID}>
+          <li className="static-movie" key={movie.imdbID}>
             <img src={movie.Poster} alt={movie.Title} />
           </li>
         ))}
