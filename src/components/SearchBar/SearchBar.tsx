@@ -1,16 +1,20 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import "./SearchBar.css";
 
-const SearchBar: React.FC = () => {
-  const [searchText, setSearchText] = useState("");
+interface SearchBarProps {
+  value: string;
+  onChange: (value: string) => void;
+}
+
+const SearchBar: React.FC<SearchBarProps> = ({ value, onChange }) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSearchText(e.target.value);
+    onChange(e.target.value);
   };
 
   const clearInput = () => {
-    setSearchText("");
+    onChange("");
     if (inputRef.current) {
       inputRef.current.focus();
     }
@@ -34,7 +38,7 @@ const SearchBar: React.FC = () => {
           type="text"
           placeholder="Search..."
           className="input-search"
-          value={searchText}
+          value={value}
           onChange={handleInputChange}
         />
         <svg
@@ -42,9 +46,7 @@ const SearchBar: React.FC = () => {
           width="24"
           height="24"
           fill="currentColor"
-          className={`bi bi-x clear-button ${
-            searchText ? "visible" : "hidden"
-          }`}
+          className={`bi bi-x clear-button ${value ? "visible" : "hidden"}`}
           viewBox="0 0 16 16"
           onClick={clearInput}
         >
