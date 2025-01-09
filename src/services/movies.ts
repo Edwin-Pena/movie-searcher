@@ -16,7 +16,7 @@ interface SearchParams {
   search: string;
 }
 
-const API_KEY = process.env.REACT_APP_API_KEY || "default_api_key";
+const API_KEY = import.meta.env.VITE_API_KEY || "default_api_key";
 
 export const searchMovies = async ({
   search,
