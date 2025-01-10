@@ -1,74 +1,64 @@
 {
   "Search": [
     {
-      "Title": "The Boy and the Heron",
-      "Year": "2023",
-      "imdbID": "tt6587046",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "The Boy and the Heron",
+      "year": "2023",
+      "id": "tt6587046",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMzA5Zjg3MTAtM2FhZS00NTNjLTg3NjEtNWQ4MTRhZjhiNzVmXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
-      "Title": "Rocky",
-      "Year": "1976",
-      "imdbID": "tt0075148",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "Rocky",
+      "year": "1976",
+      "id": "tt0075148",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZDEyY2M2MGMtYjg5OC00ZWFjLWFkZDQtNmQzZTdiYmYzZTBkXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
-      "Title": "John Wick",
-      "Year": "2021",
-      "imdbID": "tt2911666",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
+      "title": "John Wick",
+      "year": "2021",
+      "id": "tt2911666",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg"
     },
     {
-      "Title": "My Neighbor Totoro",
-      "Year": "1988",
-      "imdbID": "tt0096283",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "My Neighbor Totoro",
+      "year": "1988",
+      "id": "tt0096283",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYWM3MDE3YjEtMzIzZC00ODE5LTgxNTItNmUyMTBkM2M2NmNiXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
-      "Title": "Avatar",
-      "Year": "2009",
-      "imdbID": "tt0499549",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "Avatar",
+      "year": "2009",
+      "id": "tt0499549",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMDEzMmQwZjctZWU2My00MWNlLWE0NjItMDJlYTRlNGJiZjcyXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
-      "Title": "The Curious Case of Benjamin Button",
-      "Year": "2008",
-      "imdbID": "tt0421715",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BYjIyNDExOWItM2Y4ZC00NmY3LWFlN2ItYTJlZDQ1NTJlZTUwXkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "The Curious Case of Benjamin Button",
+      "year": "2008",
+      "id": "tt0421715",
+      "poster": "https://m.media-amazon.com/images/M/MV5BYjIyNDExOWItM2Y4ZC00NmY3LWFlN2ItYTJlZDQ1NTJlZTUwXkEyXkFqcGc@._V1_SX300.jpg"
     },
     {
-      "Title": "Howl's Moving Castle",
-      "Year": "2004",
-      "imdbID": "tt0347149",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_SX300.jpg"
+      "title": "Howl's Moving Castle",
+      "year": "2004",
+      "id": "tt0347149",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTY1OTg0MjE3MV5BMl5BanBnXkFtZTcwNTUxMTkyMQ@@._V1_SX300.jpg"
     },
     {
-      "Title": "Doctor Strange",
-      "Year": "2016",
-      "imdbID": "tt1211837",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
+      "title": "Doctor Strange",
+      "year": "2016",
+      "id": "tt1211837",
+      "poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg"
     },
     {
-      "Title": "Spirit: Stallion of the Cimarron",
-      "Year": "2002",
-      "imdbID": "tt0166813",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BMTgyOTUzNDA1N15BMl5BanBnXkFtZTYwNjgwMDM3._V1_SX300.jpg"
+      "title": "Spirit: Stallion of the Cimarron",
+      "year": "2002",
+      "id": "tt0166813",
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTgyOTUzNDA1N15BMl5BanBnXkFtZTYwNjgwMDM3._V1_SX300.jpg"
     },
     {
-      "Title": "Army of Thieves",
-      "Year": "2021",
-      "imdbID": "tt13024674",
-      "Type": "movie",
-      "Poster": "https://m.media-amazon.com/images/M/MV5BZjA5NTk2MmEtMDUzMy00NDYwLTkzY2EtNmFlODQxNjg3ZjE4XkEyXkFqcGc@._V1_SX300.jpg"
+      "title": "Army of Thieves",
+      "year": "2021",
+      "id": "tt13024674",
+      "poster": "https://m.media-amazon.com/images/M/MV5BZjA5NTk2MmEtMDUzMy00NDYwLTkzY2EtNmFlODQxNjg3ZjE4XkEyXkFqcGc@._V1_SX300.jpg"
     }
   ],
   "totalResults": "159",

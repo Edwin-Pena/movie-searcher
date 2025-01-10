@@ -1,14 +1,8 @@
 import { useRef } from "react";
-
-interface InfoMovie {
-  imdbID: string;
-  Title: string;
-  Year?: string;
-  Poster: string;
-}
+import { Movie } from "../../types/movie";
 
 interface Props {
-  movies: InfoMovie[];
+  movies: Movie[];
 }
 
 const ListStaticMovies: React.FC<Props> = ({ movies }) => {
@@ -44,8 +38,8 @@ const ListStaticMovies: React.FC<Props> = ({ movies }) => {
       </button>
       <ul className="static-movies-list" ref={carouselRef}>
         {movies.map((movie) => (
-          <li className="static-movie" key={movie.imdbID}>
-            <img src={movie.Poster} alt={movie.Title} />
+          <li className="static-movie" key={movie.id}>
+            <img src={movie.poster} alt={movie.title} />
           </li>
         ))}
       </ul>

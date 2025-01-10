@@ -1,9 +1,4 @@
-interface Movie {
-  id: string;
-  title: string;
-  year: string;
-  poster: string;
-}
+import { Movie } from "../types/movie";
 
 interface ApiMovie {
   imdbID: string;

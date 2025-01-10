@@ -1,19 +1,10 @@
-type InfoMovie = {
-  id: string;
-  title: string;
-  year: string;
-  poster: string;
-};
+import { Movie } from "../../types/movie";
 
-type ListOfMoviesProps = {
-  movies: InfoMovie[];
-};
+interface Props {
+  movies: Movie[];
+}
 
-type MoviesProps = {
-  movies: InfoMovie[];
-};
-
-const ListOfMovies: React.FC<ListOfMoviesProps> = ({ movies }) => {
+const ListOfMovies: React.FC<Props> = ({ movies }) => {
   return (
     <ul className="movies">
       {movies.map((movie) => (
@@ -31,7 +22,7 @@ const NoMoviesResults = () => {
   return <p>No movies were found for this search</p>;
 };
 
-export const Movies: React.FC<MoviesProps> = ({ movies }) => {
+export const Movies: React.FC<Props> = ({ movies }) => {
   const hasMovies = movies?.length > 0;
   return hasMovies ? <ListOfMovies movies={movies} /> : <NoMoviesResults />;
 };
