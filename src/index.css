@@ -11,3 +11,10 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.loading-message {
+  color: #ededed;
+  font-size: 25px;
+  padding: 100px 50px 30px 50px;
+  margin: 0;
+}

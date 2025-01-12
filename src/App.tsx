@@ -27,18 +27,22 @@ const App: React.FC = () => {
   return (
     <div className="page">
       <SearchBar value={search} onChange={handleSearchChange} />
-      {loading ? (
-        <p>Loading movies...</p>
-      ) : search.trim() === "" ? (
-        <>
-          <BackgroundMovie />
-          <StaticMovies />
-        </>
-      ) : movies.length > 0 ? (
-        <Movies movies={movies} />
-      ) : (
+      {
+        loading ? (
+          <p className="loading-message">Loading movies...</p>
+        ) : search.trim() === "" ? (
+          <>
+            <BackgroundMovie />
+            <StaticMovies />
+          </>
+        ) : (
+          /* movies.length > 0 ? ( */
+          <Movies movies={movies} />
+        )
+        /* ) : (
         <p>No movies found</p>
-      )}
+      ) */
+      }
     </div>
   );
 };

@@ -10,9 +10,9 @@ const ListOfMovies: React.FC<Props> = ({ movies }) => {
     <ul className="movies">
       {movies.map((movie) => (
         <li className="movie" key={movie.id}>
+          <img className="movie-img" src={movie.poster} alt={movie.title} />
           <h3 className="movie-title">{movie.title}</h3>
           <p className="movie-year">{movie.year}</p>
-          <img className="movie-img" src={movie.poster} alt={movie.title} />
         </li>
       ))}
     </ul>
@@ -20,7 +20,9 @@ const ListOfMovies: React.FC<Props> = ({ movies }) => {
 };
 
 const NoMoviesResults = () => {
-  return <p>No movies were found for this search</p>;
+  return (
+    <p className="not-found-movies">No movies were found for this search</p>
+  );
 };
 
 export const Movies: React.FC<Props> = ({ movies }) => {

@@ -2,26 +2,32 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   width: 100%;
-  gap: 10px;
+  column-gap: 20px;
+  row-gap: 30px;
   list-style: none;
-  margin: 100px 0 0 0;
-  padding: 0 30px;
+  margin: 0;
+  padding: 100px 30px 30px 30px;
   box-sizing: border-box;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
 }
 
 .movie-title {
   display: flex;
   align-items: center;
   color: #ededed;
-  height: 50px;
+  height: auto;
   font-size: 18px;
-  margin: 0;
+  margin: 5px 0 0 0;
 }
 
 .movie-year {
-  color: #ededed;
+  color: #6e6e6e;
   padding: 0;
-  margin: 0;
+  margin: 2px 0 0 0;
 }
 
 .movie-img {
@@ -29,4 +35,11 @@
   width: 100%;
   border-radius: 7px;
   object-fit: cover;
+}
+
+.not-found-movies {
+  color: #ededed;
+  font-size: 25px;
+  padding: 100px 50px 30px 50px;
+  margin: 0;
 }
