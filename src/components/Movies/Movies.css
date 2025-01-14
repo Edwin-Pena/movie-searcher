@@ -16,8 +16,6 @@
 }
 
 .movie-title {
-  display: flex;
-  align-items: center;
   color: #ededed;
   height: auto;
   font-size: 18px;
@@ -42,4 +40,14 @@
   font-size: 25px;
   padding: 100px 50px 30px 50px;
   margin: 0;
+}
+
+@media (max-width: 480px) {
+  .movie-title {
+    align-self: center;
+  }
+
+  .movie-year {
+    align-self: center;
+  }
 }
