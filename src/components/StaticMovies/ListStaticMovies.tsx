@@ -31,6 +31,7 @@ const ListStaticMovies: React.FC<Props> = ({ movies }) => {
       });
     }
   };
+
   return (
     <>
       <button className="carousel-btn left" onClick={scrollLeft}>

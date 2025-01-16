@@ -9,10 +9,10 @@ const BackgroundMovie: React.FC = () => {
       <div className="movie-bg">
         <h1 className="movie-bg-title">Mufasa: The Lion King </h1>
         <p className="movie-bg-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nisi
-          laborum ipsa nam delectus qui ab nostrum debitis incidunt rerum
-          corporis dolores minima facere, optio necessitatibus numquam aperiam
-          quasi quaerat!
+          Lost and alone, orphaned cub Mufasa meets a sympathetic lion named
+          Taka, the heir to a royal bloodline. The chance meeting sets in motion
+          an expansive journey of an extraordinary group of misfits searching
+          for their destinies.
         </p>
       </div>
     </div>

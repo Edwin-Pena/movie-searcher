@@ -61,12 +61,17 @@
 }
 
 @media (max-width: 450px) {
+  .backdrop {
+    height: 750px;
+  }
+
   .backdrop-gradient {
-    height: 500px;
+    height: 350px;
+    bottom: 200px;
   }
 
   .movie-bg {
-    top: 20%;
+    top: 24%;
     width: 300px;
   }
 
